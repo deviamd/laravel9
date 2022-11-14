@@ -4,7 +4,7 @@
     <head>
 
     <meta charset="utf-8" />
-    <title>Dashboard | Upcube - Admin & Dashboard Template</title>
+    <title>Dashboard | Admin & Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesdesign" name="author" />
@@ -90,7 +90,7 @@
         </div>
         <!-- END layout-wrapper -->
 
-        <!-- Right Sidebar -->
+        {{-- <!-- Right Sidebar -->
         <div class="right-bar">
             <div data-simplebar class="h-100">
                 <div class="rightbar-title d-flex align-items-center px-3 py-4">
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="mb-2">
-                        <img src="assets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="layout-2">
+                        <img src="ssets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="layout-2">
                     </div>
                     <div class="form-check form-switch mb-3">
                         <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css">
@@ -137,7 +137,7 @@
 
             </div> <!-- end slimscroll-menu-->
         </div>
-        <!-- /Right-bar -->
+        <!-- /Right-bar --> --}}
 
         <!-- Right bar overlay-->
         <div class="rightbar-overlay"></div>
