@@ -171,12 +171,11 @@
             <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
             <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
             <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
         </div>
 
     </div>
 
-    <div class="credit"> created by <span>kiyama optik</span> | all rights reserved </div>
+    <div class="credit"> created by <span>optik daiv</span> | all rights reserved </div>
 
 </section>
 

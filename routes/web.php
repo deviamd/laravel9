@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\PembeliController;
+use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\TransaksiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +28,12 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::resource('/user', UserController::class);
+Route::resource('/pembeli', PembeliController::class);
+Route::resource('/produk', ProdukController::class);
+Route::resource('/order', OrderController::class);
+Route::resource('/transaksi', TransaksiController::class);
 
 //admin all route
 Route::controller(AdminController::class)->group(function(){

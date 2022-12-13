@@ -25,11 +25,47 @@
 
 
                 <li>
-                    <a href="index.html" class="waves-effect">
-                        <i class="ri-dashboard-line"></i><span class="badge rounded-pill bg-success float-end">3</span>
+                    <a href="/dashboard" class="waves-effect">
+                        <i class="ri-dashboard-line"></i><span class="badge rounded-pill bg-success float-end">1</span>
                         <span>Dashboard</span>
                     </a>
                 </li>
+                <li>
+                    <a href="/user" class="waves-effect">
+                        <i class=" ri-team-fill"></i>
+                        <span>User</span>
+                    </a>
+                </li>
+                {{-- <li>
+                    <a href="/pembeli" class="waves-effect">
+                        <i class="ri-user-line"></i><span class="badge rounded-pill bg-success float-end">2</span>
+                        <span>Pembeli</span>
+                    </a>
+                </li> --}}
+                <li>
+                    <a href="/produk" class="waves-effect">
+                        <i class="ri-shopping-basket-2-line"></i>
+                        <span>Produk</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/order" class="waves-effect">
+                        <i class=" ri-shopping-bag-3-fill"></i><span class="badge rounded-pill bg-success float-end">3</span>
+                        <span>Orders</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/transaksi" class="waves-effect">
+                        <i class=" ri-money-dollar-box-line"></i><span class="badge rounded-pill bg-success float-end">1</span>
+                        <span>Transaksi</span>
+                    </a>
+                </li>
+                {{-- <li> --}}
+                    {{-- <a href="index.html" class="waves-effect">
+                        <i class=" ri-file-paper-fill"></i><span class="badge rounded-pill bg-success float-end">1</span>
+                        <span>Laporan</span>
+                    </a>
+                </li> --}}
 
             </ul>
         </div>
